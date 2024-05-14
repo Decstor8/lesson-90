@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import expressWs from 'express-ws';
+import WebSocket from 'ws';
 import {Pixel} from "./types";
 
 const app = express();
